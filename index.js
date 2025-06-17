@@ -148,7 +148,7 @@ connectToSQLiteCloud().then(() => {
 // === FUNCIONES AUXILIARES ===
 
 function isAuthorizedNumber(from) {
-    return from.endsWith('5492236711185@c.us');
+    return from.endsWith('549.........@c.us'); // === AGREGAR EL NÚMERO AUTORIZADO PARA INTERACTUAR CON EL BOT ===
 }
 
 function isReadOnly(sql) {
